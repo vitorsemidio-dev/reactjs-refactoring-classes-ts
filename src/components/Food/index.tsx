@@ -20,7 +20,7 @@ interface FoodProps {
 }
 
 const Food = ({ food, handleDelete, handleEditFood }: FoodProps) => {
-  const [isAvailable, setIsAvailable] = useState(false);
+  const [isAvailable, setIsAvailable] = useState(food.available);
 
   const toggleAvailable = async () => {
     const { available } = food;
