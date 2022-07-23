@@ -4,7 +4,7 @@ import { useState } from "react";
 import api from "../../services/api";
 import { Container } from "./styles";
 
-type FoodType = {
+export type FoodType = {
   id: string;
   available: boolean;
   image: string;

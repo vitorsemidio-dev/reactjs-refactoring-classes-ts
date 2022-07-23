@@ -1,13 +1,10 @@
 import { useRef } from "react";
 import { FiCheckSquare } from "react-icons/fi";
+import { FoodType } from "../Food";
 
 import Input from "../Input";
 import Modal from "../Modal";
 import { Form } from "./styles";
-
-type FoodType = {
-  id: string;
-};
 
 interface ModalAddFoodProps {
   isOpen: boolean;
