@@ -12,7 +12,7 @@ import { Container } from "./styles";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
-  icon: any; // ReactNode
+  icon?: any; // ReactNode
 }
 
 const Input = ({ name, icon: Icon, ...rest }: InputProps) => {
